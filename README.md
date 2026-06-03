@@ -100,4 +100,9 @@ Open **http://localhost:3000**
 | `GET` | `/health` | Liveness check |
 
 
-
+## Improvements required:
+- Add integration tests
+- Add more unit tests for coverage 
+- Auth setup : local keycloak setup + app expecting OAuth Token
+- DB: local db setup + app persistance layer
+- Improvise this prototype to be more closer to Architecture diagram 
