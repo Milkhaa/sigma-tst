@@ -1,10 +1,12 @@
 # Environment files
 .env
 .env.*
+!.env.example
+!**/.env.example
 !.env.local.example
+!**/.env.local.example
 backend/.env
 frontend/.env.local
-frontend/.env.local.example
 
 # Node dependencies and build output
 node_modules/
@@ -42,4 +44,3 @@ bin/
 # Temp files
 tmp/
 *.tmp
-backend/.env
